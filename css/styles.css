@@ -1,0 +1,254 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  color: #434455;
+}
+
+.order-service-btn {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  color: #404bbf;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+button {
+  background: #4d5ae5;
+  font-family: inherit;
+}
+
+/* ============== HEADER ============== */
+
+.logotype-link {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.span-color {
+  color: #2e2f42;
+}
+
+.menu-list-names {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
+.menu-item {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+}
+
+.contact-list {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+.contact-link {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-list {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.menu-list-names {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts {
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+/* ============== HERO STYLES ============== */
+
+.hero-section {
+  background: #2e2f42;
+}
+
+.main-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.order-service-btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404bbf;
+}
+
+.team-person,
+.member-position,
+.member-info,
+.team-members {
+  background-color: #ffffff;
+}
+
+/* ============== SECTION ADVANTAGES ============== */
+
+.advanteges {
+  background-color: #f4f4fd;
+  color: #2e2f42;
+}
+
+.advantages-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.adventages-description {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ============== OUR TEAM ============== */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-section-name,
+.portfolio-section-name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+  background-color: FFFFFF;
+}
+
+.team-person,
+.member-position {
+  background-color: FFFFFF;
+}
+
+.team-person {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: FFFFFF;
+}
+
+.member-position {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: FFFFFF;
+}
+
+/* ============== OUR PORTFOLIO ============== */
+
+.portfolio-section-named {
+  line-height: 1.2;
+}
+
+.usage {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.use-way {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ============== FOOTER ============== */
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-content {
+  background: #2e2f42;
+}
+
+.logotype-link {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
+}
+
+.style {
+  color: #f4f4fd;
+}

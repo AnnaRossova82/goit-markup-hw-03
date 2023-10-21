@@ -275,7 +275,10 @@ button {
 /* ============== SECTION ADVANTAGES ============== */
 
 .advantages-list {
-  display: flex;
+  gap: 24px;
+  width: calc((100%-72px) / 4);
+  padding-bottom: 120px;
+  column-gap: 24px;
 }
 
 .advantage-description {
@@ -338,7 +341,7 @@ button {
 
 .team-members {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   justify-content: center;
 }
 

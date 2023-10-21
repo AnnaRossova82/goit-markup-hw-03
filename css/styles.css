@@ -91,6 +91,8 @@ button {
 .header-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .page-navigation {
@@ -163,6 +165,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
+  gap: 40px;
 }
 
 .contact-list-item {
@@ -181,6 +184,12 @@ button {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
+}
+
+.contact-link .email {
+  margin-right: 40px;
 }
 
 .contact-list {
@@ -269,6 +278,12 @@ button {
   display: flex;
 }
 
+.advantage-description {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-list-items {
   gap: 24px;
   width: calc((100%-72px) / 4);
@@ -318,6 +333,7 @@ button {
 
 .name-occupation {
   padding: 32px 0;
+  gap: 24px;
 }
 
 .team-members {

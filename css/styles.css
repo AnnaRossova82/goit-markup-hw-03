@@ -95,6 +95,7 @@ button {
 
 .page-navigation {
   display: flex;
+  align-items: center;
 }
 
 .logotype-link {
@@ -110,6 +111,7 @@ button {
   display: flex;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
+  margin-right: 76px;
 }
 
 .span-color {
@@ -141,6 +143,18 @@ button {
   list-style-type: none;
 }
 
+.menu-list-names {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .contact-list {
   color: #434455;
   font-size: 16px;
@@ -148,6 +162,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
+}
+
+.contact-list-item {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts-link:hover,
@@ -180,17 +199,6 @@ button {
   width: 151px;
 }
 
-.menu-list-names {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .contacts {
   font-style: normal;
   letter-spacing: 0.02em;
@@ -208,6 +216,8 @@ button {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .main-title {
@@ -217,7 +227,7 @@ button {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -231,6 +241,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 16px 32px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .order-service-btn:hover,
@@ -254,6 +269,11 @@ button {
   padding-bottom: 120px;
 }
 
+.advantages-list-items {
+  display: flex;
+  gap: 24px;
+}
+
 .advanteges {
   background-color: #f4f4fd;
   color: #2e2f42;
@@ -265,6 +285,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .adventages-description {
@@ -280,6 +301,8 @@ button {
 
 .member-info {
   width: calc((100%-72px) / 4);
+  gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .member-info-img {
@@ -287,6 +310,10 @@ button {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.name-occupation {
+  padding: 32px 0;
 }
 
 .team-members {
@@ -314,6 +341,7 @@ button {
 .member-position {
   background-color: FFFFFF;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-person {
@@ -333,6 +361,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: FFFFFF;
+  text-align: center;
 }
 
 /* ============== OUR PORTFOLIO ============== */
@@ -341,10 +370,17 @@ button {
   width: calc((100%-48px) / 3);
 }
 
+.all-usage-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .items-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .item-img {
@@ -382,6 +418,7 @@ button {
 
 .footer-content {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .logotype-link {
@@ -389,6 +426,8 @@ button {
   font-family: 'Raleway', sans-serif;
   line-height: 1.17;
   margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .style {

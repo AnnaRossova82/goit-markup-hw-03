@@ -109,9 +109,8 @@ button {
   color: #2e2f42;
   margin-right: 72 px;
   display: flex;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .span-color {
@@ -141,6 +140,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-list-names {
@@ -242,6 +243,8 @@ button {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -264,19 +267,20 @@ button {
 
 .advantages-list {
   display: flex;
-  column-gap: 24px;
-  width: calc((100%-72px) / 4);
-  padding-bottom: 120px;
 }
 
 .advantages-list-items {
-  display: flex;
   gap: 24px;
+  width: calc((100%-72px) / 4);
+  padding-bottom: 120px;
+  column-gap: 24px;
 }
 
 .advanteges {
   background-color: #f4f4fd;
   color: #2e2f42;
+  width: calc((100%-72px) / 4);
+  padding-bottom: 120px;
 }
 
 .advantages-name {
@@ -367,7 +371,7 @@ button {
 /* ============== OUR PORTFOLIO ============== */
 
 .item-description {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .all-usage-info {
